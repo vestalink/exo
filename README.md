@@ -30,12 +30,12 @@ P001,A001,Appartement
 - Importer les données des fichiers csv à l'aide d'une rake task
 - Pouvoir lister (#index), voir (#show) et éditer (#edit) les immeubles contenus dans le fichier sites.csv
 - Lister les lots associés aux immeubles contenus dans le fichier parts.csv
-- Pouvoir ajouter des lots à un immeuble : avec un formulaire contenant un champs texte désignant le type de lot,
-  et un autre sa référence
+- Pouvoir ajouter des lots à un immeuble : avec un formulaire contenant un champs texte désignant le type de lot, et un autre sa référence
+- Les références des lots et des immeubles doivent être unique
 
 ## BONUS
 - Pouvoir éditer le nom d'un immeuble
-- Les références des lots et des immeubles doivent être unique
+- Avoir un index sur lequel on arrive qui affiche les sites et leurs lots
 
 Le resultat attendu est composé de deux lien à nous fournir :
 - l'url de votre repo en clonant celui-ci
