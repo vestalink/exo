@@ -1,9 +1,9 @@
 # Objectif
 Cloner ce repo dans son compte github
 Créer une application Ruby on Rails permettant de visualiser les données contenues dans le dossier data.
-Les données représentent un parc immobilier, le fichier data contient :
+Les données représentent un parc immobilier, le dossier data contient :
 - le fichier `sites.csv` contenant les immeubles
-- le fichier `parts.csv` contenant les lots associés aux immeubles. Un lots représente un partie d'un immeuble, 
+- le fichier `parts.csv` contenant les lots associés aux immeubles. Un lots représente un partie d'un immeuble,
   c'est souvent un appartement, une cave ou une place de parking
 
 ## le fichier sites.csv
@@ -25,6 +25,7 @@ P001,A001,Appartement
 - La troisième colonne représente le type de lot (parking, cave ou immeuble)
 
 # Résultats attendus
+- Avoir une page de connexion
 - Avoir deux modèles : Site (immeuble), et Part (lot) avec les bonnes relations
 - Importer les données des fichiers csv à l'aide d'une rake task
 - Pouvoir lister (#index), voir (#show) et éditer (#edit) les immeubles contenus dans le fichier sites.csv
@@ -35,9 +36,7 @@ P001,A001,Appartement
 ## BONUS
 - Pouvoir éditer le nom d'un immeuble
 - Les références des lots et des immeubles doivent être unique
-- afficher la google maps 
 
 Le resultat attendu est composé de deux lien à nous fournir :
 - l'url de votre repo en clonant celui-ci
 - l'url heroku de votre application pour que nous puissions tester
-
